@@ -7,6 +7,6 @@
 #- Quantidades de cada produto
 
 #Construir uma função para imprimir um dos produtos da lista e uma
-#Função para retirar um dos produtos das listas.
+#Função para retirar um dos produtos das listas..
 
 
