@@ -14,6 +14,7 @@ class AlunoEnsinoMedio(Aluno):
     def __init__(self, codigo, nome, matricula, ano):
         Aluno.__init__(codigo, nome, matricula)
         self.ano = ano
+        self.imprimir()
         
     def imprimir(self):
         print("Ano: ", self.ano)
@@ -23,6 +24,7 @@ class AlunoGraduacao(Aluno):
     def __init__(self, codigo, nome, matricula, semestre):
         Aluno.__init__(codigo, nome, matricula)
         self.semestre = semestre
+        self.imprimir()
 
     def imprimir(self):
         print("Semestre: ", self.semestre)
